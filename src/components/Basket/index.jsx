@@ -89,7 +89,7 @@ const Basket = ({ el }) => {
                       }
                     }}
                     type="text"
-                    placeholder="Комментарий к заказу..."
+                    placeholder="Адрес доставки"
                   />
                   <div className="info--block1__btns">
                     <button className="info--block1__btns--ok">Ок </button>
@@ -124,7 +124,6 @@ const Basket = ({ el }) => {
               <div className="modalBg">
                 {!modalText ? (
                   <>
-                   
                     <h1>Вы подтверждаете свой заказ?</h1>
                     {userAdress ? (
                       <h3>{userAdress}</h3>
@@ -143,9 +142,9 @@ const Basket = ({ el }) => {
                     <h1 className="">Продукт успешно отпроавлен!</h1>
                   </div>
                 ) : null}
-                 <a className="modalClose" onClick={() => setModal(false)}>
-                      <IoIosCloseCircleOutline />
-                    </a>
+                <a className="modalClose" onClick={() => setModal(false)}>
+                  <IoIosCloseCircleOutline />
+                </a>
               </div>
             ) : null}
           </div>
