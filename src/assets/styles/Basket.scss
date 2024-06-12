@@ -1,0 +1,175 @@
+#basket {
+  padding: 30px 0;
+  overflow-y: auto;
+  .basket {
+    z-index: -1;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    overflow-x: auto;
+    position: relative;
+  }
+  .info {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--block1 {
+      padding: 20px;
+      display: flex;
+      width: 621px;
+      height: 140px;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.17);
+      box-shadow: 3px 5px 10px 0px rgba(143, 143, 143, 0.25);
+      box-shadow: 3px 4px 6px 0px rgba(171, 171, 171, 0.25);
+      input {
+        width: 100%;
+        height: 20px;
+        background: transparent;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 18.15px;
+        text-align: left;
+        color: white;
+      }
+
+      &__btns {
+        width: 50%;
+        display: flex;
+        align-items: end;
+        justify-content: flex-end;
+        gap: 10px;
+        &--ok {
+          width: 90px;
+          height: 35px;
+          top: 720px;
+          left: 458px;
+          padding: 3px 0px 7px 0px;
+          gap: 10px;
+          border-radius: 11111110884774640000000000000px;
+          border: 1.5px;
+          border: 1.5px solid green;
+          background: rgba(255, 255, 255, 0.17);
+          color: white;
+          box-shadow: 3px 5px 10px 0px rgba(143, 143, 143, 0.25);
+          box-shadow: 3px 4px 6px 0px rgba(171, 171, 171, 0.25);
+        }
+        &--otmena {
+          width: 100px;
+          height: 35px;
+          padding: 5px 20px 5px 20px;
+          border-radius: 20px;
+          color: white;
+          background: rgba(255, 255, 255, 0.17);
+          box-shadow: 3px 5px 10px 0px rgba(143, 143, 143, 0.25);
+          box-shadow: 3px 4px 6px 0px rgba(171, 171, 171, 0.25);
+        }
+      }
+    }
+    .block1btns {
+      margin-top: 30px;
+      .block1Btn {
+        margin-right: 30px;
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 6px 40px;
+        padding: 15px 30px 15px 30px;
+        border-radius: 10px;
+        background: rgba(255, 255, 255, 0.17);
+        box-shadow: 3px 5px 10px 0px rgba(143, 143, 143, 0.25);
+        box-shadow: 3px 4px 6px 0px rgba(171, 171, 171, 0.25);
+      }
+    }
+    &--block2 {
+      margin-bottom: 75px;
+      padding: 20px;
+      width: 400px;
+      height: 130px;
+      border-radius: 10px;
+      background: rgba(62, 61, 61, 0.304);
+      box-shadow: 3px 5px 10px 0px rgba(143, 143, 143, 0.25);
+      box-shadow: 3px 4px 6px 0px rgba(171, 171, 171, 0.25);
+      &__total {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        h1 {
+          color: white;
+          font-size: 22px;
+          font-weight: 500;
+        }
+      }
+      &__btn {
+        display: flex;
+        align-items: end;
+        justify-content: flex-end;
+        button {
+          width: 120px;
+          height: 35px;
+          top: 720px;
+          left: 458px;
+          padding: 3px 0px 7px 0px;
+          gap: 10px;
+          border: 1.5px;
+          border: 1.5px solid green;
+          border-radius: 10px;
+          background: rgba(255, 255, 255, 0.17);
+          color: white;
+          box-shadow: 3px 5px 10px 0px rgba(143, 143, 143, 0.25);
+          box-shadow: 3px 4px 6px 0px rgba(171, 171, 171, 0.25);
+        }
+      }
+    }
+  }
+
+  .modalBg {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    z-index: 10;
+    position: fixed;
+    width: 650px;
+    height: 350px;
+    background: white;
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px;
+    button {
+      padding: 12px 32px;
+      background: black;
+      color: white;
+      font-size: 20px;
+      font-weight: 500;
+      border-radius: 10px;
+    }
+    h1 {
+      font-size: 35px;
+      font-weight: 600;
+    }
+    .modalClose {
+      font-size: 35px;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    .success {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+     a{
+      font-size: 170px;
+     }
+    }
+  }
+}

@@ -1,0 +1,88 @@
+#productCard {
+  .productCard {
+    padding: 30px 20px;
+    width: 350px;
+    height: 510px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 25px;
+    background: rgba(34, 33, 33, 0.843);
+    border-radius: 20px;
+    a {
+      cursor: pointer;
+      font-size: 25px;
+      color: white;
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+    }
+    h1 {
+      font-size: 25px;
+      font-weight: 600;
+      color: white;
+    }
+    p {
+      font-size: 17px;
+      color: white;
+      width: 327px;
+    }
+    h3 {
+      font-size: 20px;
+      color: white;
+    }
+    &--btn {
+      display: flex;
+      gap: 70px;
+      align-items: center;
+      justify-content: space-between;
+
+      &__left {
+        padding: 0 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 110px;
+        height: 40px;
+        border-radius: 2px;
+        border: 1px;
+        gap: 20px;
+        background: rgba(255, 255, 255, 0.17);
+        border: 1px solid rgba(255, 255, 255, 1);
+        button {
+          color: white;
+          font-size: 25px;
+        }
+      }
+      &__right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        width: 110px;
+        height: 40px;
+        border-radius: 2px;
+        border: 2px solid green;
+        gap: 20px;
+        background: rgba(255, 255, 255, 0.17);
+      }
+    }
+    .mouseModal {
+      width: 350px;
+      padding: 20px;
+      background: gray;
+      border-radius: 20px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      p {
+        width: 500px;
+        font-size: 20px;
+        margin: 10px 0;
+      }
+    }
+  }
+}

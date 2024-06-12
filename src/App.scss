@@ -1,0 +1,31 @@
+@import "./assets/styles/Header.scss";
+@import "./assets/styles/Home.scss";
+@import "./assets/styles/Basket.scss";
+@import "./assets/styles/AdminCreate.scss";
+@import "./assets/styles/ProductCard.scss";
+@import "./assets/styles/Basket.scss";
+@import "./assets/styles/BasketCard.scss";
+@import "./assets/styles/Category.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+  border: none;
+}
+body {
+  background: black;
+}
+.slick-arrow {
+  display: none !important;
+}
